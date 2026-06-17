@@ -1,0 +1,31 @@
+# HTTP / 네트워킹
+requests==2.32.3
+urllib3==2.2.3
+
+# 영상 처리
+ffmpeg-python==0.2.0
+
+# 음성 인식 (Whisper)
+openai-whisper==20231117
+torch==2.3.1
+torchaudio==2.3.1
+
+# 장면 감지
+scenedetect[opencv]==0.6.4
+
+# AI 분석
+openai==1.40.0
+
+# YouTube API
+google-api-python-client==2.140.0
+google-auth-httplib2==0.2.0
+google-auth-oauthlib==1.2.1
+
+# DB (상태 관리)
+SQLAlchemy==2.0.32
+
+# 유틸
+python-dotenv==1.0.1
+tqdm==4.66.5
+schedule==1.2.2
+loguru==0.7.2
