@@ -1,0 +1,36 @@
+# 설치 방법 (이 명령어 하나만 실행):
+#   pip install -r requirements.txt
+
+# 빌드 도구 (반드시 먼저 설치됨 - torch와 호환되는 버전)
+setuptools==81.0.0
+
+# HTTP / 네트워킹
+requests==2.33.1
+urllib3==2.6.3
+
+# 영상 처리
+ffmpeg-python==0.2.0
+
+# 음성 인식 (Whisper) - Python 3.12 호환 버전
+openai-whisper==20250625
+torch==2.12.0
+
+# 장면 감지
+scenedetect[opencv]==0.7
+
+# AI 분석
+openai==2.42.0
+
+# YouTube API
+google-api-python-client==2.197.0
+google-auth-httplib2==0.4.0
+google-auth-oauthlib==1.4.0
+
+# DB (상태 관리)
+SQLAlchemy==2.0.51
+
+# 유틸
+python-dotenv==1.2.2
+tqdm==4.68.2
+schedule==1.2.2
+loguru==0.7.3

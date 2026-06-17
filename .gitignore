@@ -1,0 +1,35 @@
+# 환경변수 (절대 커밋 금지)
+.env
+
+# 다운로드된 원본 영상 (용량 큼)
+data/downloads/*
+!data/downloads/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# 생성된 쇼츠 (용량 큼)
+data/shorts/*
+!data/shorts/.gitkeep
+
+# DB는 커밋하지 않음
+data/pipeline.db
+
+# YouTube 인증 토큰 (절대 커밋 금지)
+config/youtube_token.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# 로그
+logs/*
+!logs/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
