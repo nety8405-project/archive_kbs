@@ -1,5 +1,8 @@
-# 설치 전 필수: pip install --upgrade setuptools
-# 그 다음: pip install -r requirements.txt
+# 설치 방법 (이 명령어 하나만 실행):
+#   pip install -r requirements.txt
+
+# 빌드 도구 (반드시 먼저 설치됨 - torch와 호환되는 버전)
+setuptools==81.0.0
 
 # HTTP / 네트워킹
 requests==2.33.1
